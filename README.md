@@ -22,9 +22,10 @@ Not use trilium-py library
    pip3 install requests
 
 4️⃣ **Edit variables**:
-   - TOKEN = 'your_etapi_token' 
-   - ROOT_PARENT_ID = 'target_folder_id' 
-   - keep_dir = Path('/path/to/Takeout/Keep')
+   - SERVER_URL = '<YOUR_IP_TO_TRILIUM>'  
+   - TOKEN = '<YOUR_TRILIUM_TOKEN_API>'  
+   - ROOT_PARENT_ID = '<root_folder_id>'
+   - keep_dir = Path('/path/to/Takeout/Keep') 
 
 5️⃣ Run:
    python3 converter.py
