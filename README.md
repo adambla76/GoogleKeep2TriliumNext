@@ -1,6 +1,7 @@
 Automatically imports all Google Keep notes to TriliumNext with full folder structure by labels and label attributes!
 
 🎯 What it does for you
+
 Loads JSON from Google Takeout from folder (Takeout/Keep/*.json)
 Creates folders for each unique label (first label = parent folder)
 Imports notes with content, titles, and all labels as Trilium attributes
